@@ -1,4 +1,4 @@
-package br.com.acrtech.patterns.prototype;
+package br.com.infnet.patterns.prototype;
 
 import java.util.Objects;
 

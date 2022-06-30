@@ -1,4 +1,4 @@
-package br.com.acrtech.patterns.prototype;
+package br.com.infnet.patterns.prototype;
 
 public class Runner {
     public static void main(String[] args) {
