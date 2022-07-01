@@ -1,4 +1,4 @@
-package br.com.infnet.patterns.builder;
+package br.com.infnet.patterns.criacionais.builder;
 
 public class Runner {
     public static void main(String[] args) {

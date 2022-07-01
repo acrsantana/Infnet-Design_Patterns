@@ -1,6 +1,4 @@
-package br.com.infnet.patterns.builder;
-
-import java.util.List;
+package br.com.infnet.patterns.criacionais.builder;
 
 public class VendedorBuilder implements FuncionarioBuilder{
 

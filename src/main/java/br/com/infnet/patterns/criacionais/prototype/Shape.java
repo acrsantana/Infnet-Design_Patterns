@@ -1,4 +1,4 @@
-package br.com.infnet.patterns.prototype;
+package br.com.infnet.patterns.criacionais.prototype;
 
 import java.util.Objects;
 
