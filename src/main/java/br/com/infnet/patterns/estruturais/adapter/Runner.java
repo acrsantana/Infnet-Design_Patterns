@@ -2,17 +2,13 @@ package br.com.infnet.patterns.estruturais.adapter;
 
 public class Runner {
     public static void main(String[] args) {
-        Target comandos = new MySQLAdapter(new MyQSLCommands());
+        Target comandos = new AdaptadorPagseguro(new ComandosPagseguro());
 
-        comandos.insert();
-        comandos.delete();
-        comandos.update();
+        comandos.efetuarPagamento();
 
-        comandos = new OracleAdapter(new OracleCommands());
+        comandos = new AdaptadorPaypal(new ComandosPaypal());
 
-        comandos.insert();
-        comandos.delete();
-        comandos.update();
+        comandos.efetuarPagamento();
     }
 
 }
