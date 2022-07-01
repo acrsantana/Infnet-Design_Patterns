@@ -2,11 +2,17 @@ package br.com.infnet.patterns.estruturais.adapter;
 
 public class Runner {
     public static void main(String[] args) {
-        Target pc = new MySQLAdapter(new MyQSLCommands());
+        Target comandos = new MySQLAdapter(new MyQSLCommands());
 
-        pc.insert();
-        pc.delete();
-        pc.update();
+        comandos.insert();
+        comandos.delete();
+        comandos.update();
+
+        comandos = new OracleAdapter(new OracleCommands());
+
+        comandos.insert();
+        comandos.delete();
+        comandos.update();
     }
 
 }
